@@ -1,0 +1,67 @@
+* {
+    text-align: justify;
+    font-style: italic;
+}
+.navbar-brand{
+    height: 50px;
+    width: 50px;
+    border-radius: 43%;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 34, 34);
+    color: aliceblue;
+}
+
+img {
+    width: 1000px;
+    height: 450px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.pasiva,
+.Q,
+.W,
+.E,
+.R {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #006400; /* Cambio de color a verde asociado con Riven */
+    border: 2px solid #00cc00; /* Cambio de color del borde */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    text-align: center;
+    background-color: rgb(20, 19, 19);
+}
+
+#DebilContra{
+    border: 2px solid #ff0000; /* Cambia el color del borde a rojo */
+    border-radius: 10px; /* Añade bordes redondeados */
+    padding: 20px; /* Añade espacio interno */
+    margin-bottom: 20px; /* Añade espacio inferior */
+}
+
+#FuerteContra{
+    border: 2px solid #0400ff; /* Cambia el color del borde a rojo */
+    border-radius: 10px; /* Añade bordes redondeados */
+    padding: 20px; /* Añade espacio interno */
+    margin-bottom: 20px; /* Añade espacio inferior */
+}
