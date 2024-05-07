@@ -65,3 +65,29 @@ img {
     padding: 20px; /* Añade espacio interno */
     margin-bottom: 20px; /* Añade espacio inferior */
 }
+
+.card-title {
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.card-title.basico {
+    background-color: blue;
+    color: white;
+}
+
+.card-title.mediano {
+    background-color: green;
+    color: white;
+}
+
+.card-title.dificil {
+    background-color: red;
+    color: white;
+}
+
+.card-title.experto {
+    background-color: black;
+    color: white;
+}
