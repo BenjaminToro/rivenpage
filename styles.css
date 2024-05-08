@@ -31,7 +31,6 @@ img {
     position: absolute;
     top: 0;
     right: 10%; /* Alinea el video a la derecha dentro del contenedor */
-    width: 300px; /* Ancho del video */
 }
 
 .skill h3 {
