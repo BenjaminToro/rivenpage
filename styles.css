@@ -24,13 +24,22 @@ img {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    position: relative; /* Añade posicionamiento relativo al contenedor */
+}
+
+.skill video {
+    position: absolute;
+    top: 0;
+    right: 10%; /* Alinea el video a la derecha dentro del contenedor */
+    width: 300px; /* Ancho del video */
 }
 
 .skill h3 {
     margin-bottom: 10px;
     text-align: center;
-    
 }
+
+
 
 .pasiva,
 .Q,
